@@ -322,9 +322,9 @@ div.footerLinks * {
 
 /*Use Media Queries to make sure the webpage 
 is responsive for all device sizes (mobile, tablet, desktop, etc.)*/
-/* use for production (doesn't work with Mobile First Simulator
-@media (max-device-width: 900px) { */
-@media (max-width: 900px) {
+/* for testing with Mobile First Simulator use
+@media (max-width: 900px) { */
+@media (max-device-width: 900px) {
     body {
         font-size: 55px;
     }
