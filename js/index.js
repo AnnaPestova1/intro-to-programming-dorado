@@ -118,7 +118,7 @@ fetch("https://api.github.com/users/AnnaPestova1/repos", {
     for (let l in repositories) {
       var project = document.createElement("li");
       let repository = repositories[l];
-      project.innerHTML = `<a href="${repository.html_url}">${
+      project.innerHTML = `<a href="${repository.html_url}" target="_blank">${
         repository.name
       }</a><span> Updated year: ${new Date(
         repository.updated_at
